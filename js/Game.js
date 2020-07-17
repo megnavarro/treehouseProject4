@@ -126,6 +126,9 @@ class Game {
         }
     };
 
+    /*
+     * Resets phrase and keyboard buttons after game lost/won
+     */
     resetGame() {
         document.querySelector("#phrase ul").innerHTML = '';
 
